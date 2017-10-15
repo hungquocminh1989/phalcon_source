@@ -1,6 +1,6 @@
 <?php
 
-class TableDefine
+class TableDefine extends \Phalcon\Mvc\Model
 {
 
     /**

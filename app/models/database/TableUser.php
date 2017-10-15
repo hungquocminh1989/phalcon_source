@@ -1,6 +1,6 @@
 <?php
 
-class TableUser
+class TableUser extends \Phalcon\Mvc\Model
 {
 
     /**

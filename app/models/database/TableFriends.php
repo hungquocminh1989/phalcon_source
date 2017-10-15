@@ -1,6 +1,6 @@
 <?php
 
-class TableFriends
+class TableFriends extends \Phalcon\Mvc\Model
 {
 
     /**

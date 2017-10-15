@@ -28,12 +28,12 @@ class ControllerBase extends Controller
 
     public function indexAction()
     {
-        $this->dispatcher->forward(
+        /*$this->dispatcher->forward(
             [
                 'controller' => 'login',
                 'action'     => 'index'
             ]
-        );
+        );*/
     }
 
 }

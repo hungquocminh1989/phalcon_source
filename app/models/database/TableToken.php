@@ -1,6 +1,6 @@
 <?php
 
-class TableToken
+class TableToken extends \Phalcon\Mvc\Model
 {
 
     /**
