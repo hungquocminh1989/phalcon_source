@@ -1,0 +1,62 @@
+<div id="page-wrapper">
+    <div id="page-inner">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-head-line">THÊM TÀI KHOẢN FACEBOOK</h1>
+                <h1 class="page-subhead-line">Tạo mã facebook token</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        Thông Tin Tài Khoản
+                    </div>
+                    <div class="panel-body">
+                        <form id="frm_token">
+                            <div class="form-group">
+                                <label>Địa Chỉ Email:</label>
+                                <input class="form-control" id="email" name="email" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Mật Khẩu</label>
+                                <input class="form-control" id="password" name="pass" type="password">
+                            </div>
+                            <button id="get_token" type="button" class="btn btn-info">Nhập Token</button>
+                            <div class="form-group">
+                                <label>Kết Quả:</label>
+                                <textarea id="result_token" name="multi_line"  class="form-control" rows="5"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="page-subhead-line">Tạo mã facebook token hàng loạt</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        Thông Tin Tài Khoản Trên 1 Dòng : username|password
+                    </div>
+                    <div class="panel-body">
+                        <form id="frm_token_multi">
+                            <div class="form-group">
+                                <label>Danh Sách Tài Khoản:</label>
+                                <textarea id="multi_line" name="multi_line"  class="form-control" rows="10"></textarea>
+                            </div>
+                            <button id="get_token_multi" type="button" class="btn btn-info">Nhập Toàn Bộ Token</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE WRAPPER  -->
+</div>

@@ -1,0 +1,2 @@
+mkdir .phalcon
+mkdir cache
